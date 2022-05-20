@@ -14,10 +14,10 @@
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.5;
   color: #777777;
-  color: #7f7f7f;
+  color: #000;
   background: #fff;
   height: 100%;
   position: relative;
@@ -484,7 +484,7 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 300px;
   vertical-align: middle;
   padding: 40px;
-  background: #fff;
+  background: #ffffff;
   -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
   -moz-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
   -ms-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
@@ -523,6 +523,9 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  border: 3px  black;
+  border-style: solid;
+  padding: 25px;
 }
 #fh5co-intro .fh5co-block > .fh5co-text {
   position: relative;
